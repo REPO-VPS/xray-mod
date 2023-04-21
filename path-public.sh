@@ -29,25 +29,25 @@ END
 
 #path vmess GPRC
 cat > /usr/local/hidessh/vmessgprc.txt << END
-hidessh-vmessgprc
+vmess-grpc
 END
 #path vless GPRC
 cat > /usr/local/hidessh/vlessgprc.txt << END
-hidessh-vlessgprc
+vless-grpc
 END
 #path trojan GPRC
 cat > /usr/local/hidessh/trojangprc.txt << END
-hidessh-trojangprc
+trojan-grpc
 END
 #path Shadowsocks GPRC
 cat > /usr/local/hidessh/ssgprc.txt << END
-hidessh-ssgprc
+ss-grpc
 END
 #path Shadowsocks 2022 GPRC
 cat > /usr/local/hidessh/ss2022gprc.txt << END
-hidessh-ss2022gprc
+ss2022-grpc
 END
 #path socks GPRC
 cat > /usr/local/hidessh/socks5gprc.txt << END
-hidessh-socks5gprc
+socks5-grpc
 END
