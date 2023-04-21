@@ -25,7 +25,7 @@
       "streamSettings":{
         "network": "ws",
         "wsSettings": {
-          "path": "/hidessh-vmess",
+          "path": "/rextvpn-vmess",
           "alpn": [
             "h2",
             "http/1.1"
@@ -49,7 +49,7 @@
       "streamSettings":{
         "network": "ws",
         "wsSettings": {
-          "path": "/hidessh-vless",
+          "path": "/rextvpn-vless",
           "alpn": [
             "h2",
             "http/1.1"
@@ -73,7 +73,7 @@
       "streamSettings":{
         "network": "ws",
         "wsSettings": {
-          "path": "/hidessh-trojan",
+          "path": "/rextvpn-trojan",
           "alpn": [
             "h2",
             "http/1.1"
@@ -98,7 +98,7 @@
       "streamSettings":{
         "network": "ws",
         "wsSettings": {
-          "path": "/hidessh-ss",
+          "path": "/rextvpn-ss",
           "alpn": [
             "h2",
             "http/1.1"
@@ -124,7 +124,7 @@
       "streamSettings":{
         "network": "ws",
         "wsSettings": {
-          "path": "/hidessh-ss2022",
+          "path": "/rextvpn-ss2022",
           "alpn": [
             "h2",
             "http/1.1"
