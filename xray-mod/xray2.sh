@@ -707,7 +707,7 @@ rm -rf /var/www/html/*
 
 mv /etc/localtime /etc/localtime.bak
 ln -s /usr/share/zoneinfo/Asia/Jakarta /etc/localtime
-wget -q -O /var/www/html/index.html "https://raw.githubusercontent.com/hidessh99/plugin-hidessh/main/index.html"
+wget -q -O /var/www/html/index.html "https://raw.githubusercontent.com/RextVPN/xray-mod/main/index.html"
 
 sed -i 's/#AllowTcpForwarding yes/AllowTcpForwarding yes/g' /etc/ssh/sshd_config
 sed -i 's/Port 22/#Port 22/g' /etc/ssh/sshd_config
@@ -749,7 +749,7 @@ echo "/usr/sbin/nologin" >> /etc/shells
 /etc/init.d/dropbear restart
 
 #add path public
-wget https://raw.githubusercontent.com/hidessh99/plugin-hidessh/main/path-public.sh; chmod +x path-public.sh; ./path-public.sh
+wget https://raw.githubusercontent.com/RextVPN/xray-mod/main/path-public.sh; chmod +x path-public.sh; ./path-public.sh
 
 #cronjob
 cat > /etc/cron.d/re_otm <<-END
@@ -766,11 +766,11 @@ chmod +x /etc/issue.net
 
 echo "Banner /etc/issue.net" >> /etc/ssh/sshd_config
 #testing conf xray
-wget -O /usr/local/etc/xray/config.json "https://raw.githubusercontent.com/hidessh99/plugin-hidessh/main/xray-mod/config.json"
-wget -q -O /etc/nginx/conf.d/xray.conf "https://raw.githubusercontent.com/hidessh99/plugin-hidessh/main/xray-mod/xray.conf"
+wget -O /usr/local/etc/xray/config.json "https://raw.githubusercontent.com/RextVPN/xray-mod/main/xray-mod/config.json"
+wget -q -O /etc/nginx/conf.d/xray.conf "https://raw.githubusercontent.com/RextVPN/xray-mod/main/xray-mod/xray.conf"
 
 #plugin hidessh
-wget https://raw.githubusercontent.com/hidessh99/plugin-hidessh/main/pckg3-hide/inst-pckg3.sh; chmod +x inst-pckg3.sh; ./inst-pckg3.sh
+wget https://raw.githubusercontent.com/RextVPN/xray-mod/main/pckg3-hide/inst-pckg3.sh; chmod +x inst-pckg3.sh; ./inst-pckg3.sh
 #hapus semua document
 cd
 rm -rf /root/*
