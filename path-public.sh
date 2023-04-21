@@ -4,27 +4,27 @@
 mkdir /usr/local/hidessh
 #path vmess
 cat > /usr/local/hidessh/vmess.txt << END
-/hidessh-vmess
+/rextvpn-vmess
 END
 #path vless
 cat > /usr/local/hidessh/vless.txt << END
-/hidessh-vless
+/rextvpn-vless
 END
 #path trojan
 cat > /usr/local/hidessh/trojan.txt << END
-/hidessh-trojan
+/rextvpn-trojan
 END
 #path Shadowsocks
 cat > /usr/local/hidessh/ss.txt << END
-/hidessh-ss
+/rextvpn-ss
 END
 #path Shadowsocks 2022
 cat > /usr/local/hidessh/ss2022.txt << END
-/hidessh-ss2022
+/rextvpn-ss2022
 END
 #path socks
 cat > /usr/local/hidessh/socks5.txt << END
-/hidessh-socks5
+/rextvpn-socks5
 END
 
 #path vmess GPRC
