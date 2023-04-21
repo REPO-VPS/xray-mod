@@ -682,7 +682,7 @@ echo ""
 echo ""
 echo -e "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" |  
 echo ""
-echo -e "                ${WB}DEV SCRIPT BY DUGONG REV ANGGUN${NC}"
+echo -e "                ${WB}DEV SCRIPT BY DUGONG REV JUSTIN REXT${NC}"
 echo ""
 echo -e "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" | 
 echo -e "  ${WB}»»» Protocol Service «««  |  »»» Network Protocol «««${NC}  "
